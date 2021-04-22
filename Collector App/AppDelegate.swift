@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  Collector App
 //
-//  Created by ESHITA on 29/02/20.
-//  Copyright © 2020 ESHITA. All rights reserved.
+//  Created by ESHITA on 07/10/19.
+//  Copyright © 2019 ESHITA. All rights reserved.
 //
 
 import UIKit

@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		6F8CC835240AB3DD007638D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8CC834240AB3DD007638D2 /* AppDelegate.swift */; };
-		6F8CC837240AB3DD007638D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8CC836240AB3DD007638D2 /* ViewController.swift */; };
 		6F8CC83A240AB3DD007638D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F8CC838240AB3DD007638D2 /* Main.storyboard */; };
 		6F8CC83D240AB3DD007638D2 /* Collector_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6F8CC83B240AB3DD007638D2 /* Collector_App.xcdatamodeld */; };
 		6F8CC83F240AB3DF007638D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F8CC83E240AB3DF007638D2 /* Assets.xcassets */; };
 		6F8CC842240AB3DF007638D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F8CC840240AB3DF007638D2 /* LaunchScreen.storyboard */; };
+		6F8CC84A240ABD00007638D2 /* CollectibleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8CC849240ABD00007638D2 /* CollectibleTableViewController.swift */; };
+		6F8CC84C240ABD24007638D2 /* CreateCollectibleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8CC84B240ABD24007638D2 /* CreateCollectibleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6F8CC831240AB3DD007638D2 /* Collector App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Collector App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F8CC834240AB3DD007638D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6F8CC836240AB3DD007638D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6F8CC839240AB3DD007638D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6F8CC83C240AB3DD007638D2 /* Collector_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Collector_App.xcdatamodel; sourceTree = "<group>"; };
 		6F8CC83E240AB3DF007638D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F8CC841240AB3DF007638D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F8CC843240AB3DF007638D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F8CC849240ABD00007638D2 /* CollectibleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectibleTableViewController.swift; sourceTree = "<group>"; };
+		6F8CC84B240ABD24007638D2 /* CreateCollectibleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCollectibleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				6F8CC834240AB3DD007638D2 /* AppDelegate.swift */,
-				6F8CC836240AB3DD007638D2 /* ViewController.swift */,
 				6F8CC838240AB3DD007638D2 /* Main.storyboard */,
 				6F8CC83E240AB3DF007638D2 /* Assets.xcassets */,
 				6F8CC840240AB3DF007638D2 /* LaunchScreen.storyboard */,
 				6F8CC843240AB3DF007638D2 /* Info.plist */,
 				6F8CC83B240AB3DD007638D2 /* Collector_App.xcdatamodeld */,
+				6F8CC849240ABD00007638D2 /* CollectibleTableViewController.swift */,
+				6F8CC84B240ABD24007638D2 /* CreateCollectibleViewController.swift */,
 			);
 			path = "Collector App";
 			sourceTree = "<group>";
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F8CC837240AB3DD007638D2 /* ViewController.swift in Sources */,
 				6F8CC83D240AB3DD007638D2 /* Collector_App.xcdatamodeld in Sources */,
+				6F8CC84C240ABD24007638D2 /* CreateCollectibleViewController.swift in Sources */,
+				6F8CC84A240ABD00007638D2 /* CollectibleTableViewController.swift in Sources */,
 				6F8CC835240AB3DD007638D2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
